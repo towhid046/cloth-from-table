@@ -19,6 +19,7 @@ export default function FormData() {
       inputProducts["size"] = input;
       setProducts([...products, inputProducts])
       element.value = ''
+      
     });
     if(price < 1){alert('Price should be a positive number')}
 

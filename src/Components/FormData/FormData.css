@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Lato', sans-serif;
-    background-color: #dfe4ea;
+    background-color: #b6d4f8d5;
 }
 *{
     margin: 0;
@@ -29,14 +29,14 @@ body{
   margin: 0 20%;
 }
 .input_form{
-  background-color: #ecd5d5;
+  background-color: #f7dada;
   padding: 25px;
 }
 .input_form > label{
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    color: #010101;
+    color: #000000;
 }
 .input_form label span{
 color: rgb(219, 45, 45);
