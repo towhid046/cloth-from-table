@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@500&display=swap');
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: #dfe4ea;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main_container{
+    max-width: 1200px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: auto;
+    gap: 50px;
+    padding: 20px;
+}
+.main_heading{
+  text-align: center;
+  margin: 30px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+
+.form_wrapper{
+  max-width: 80%;
+  margin: 0 20%;
+}
+.input_form{
+  background-color: #ecd5d5;
+  padding: 25px;
+}
+.input_form > label{
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #010101;
+}
+.input_form label span{
+color: rgb(219, 45, 45);
+}
+.input_form > input{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    margin: 8px 0 16px 0;
+    font-size: 16px;
+    border-radius:5px;
+    width: 100%;
+}
+
+.addCard_btn{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    margin: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius:5px;
+    text-align: center;
+    color: #fff;
+    background-color: #222f3e;
+    width: 100%;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.color_box{
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    margin: 8px 0 16px 0;
+    font-size: 16px;
+    border-radius:5px;
+    width: 100%;
+}
+
+.description_box{
+    border: none;
+    outline: none;
+    margin: 8px 0 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+}
+
+/* Form data table CSS */
+
+.table_data {
+    border-collapse: collapse;
+    width: 92%;
+    background-color: #fff;
+    border-radius:6px;
+    margin: 0 auto;
+  }
+  .table_data td, .table_data th {
+    padding: 8px;
+    font-size: 16px;
+  }
+  .table_data th:first-child{
+    border-radius: 6px 0 0 0;
+  }
+  .table_data th:last-child{
+    border-radius:  0 6px 0 0;
+  }
+  .table_head > tr > th{
+    color: #fff;
+  }
+  .table_data tr{
+    color: #07947A;
+  }
+  .table_data tr:nth-child(even){
+    background-color: #f2f2f2;
+    color: #010101;
+}
+  .table_body > tr > td{
+    font-weight: 500;
+  }
+  .table_data thead{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #07947A;
+    color: white;
+  }
+
+  .delete_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    font-size: 22px;
+    color: rgb(230, 50, 50);
+    list-style: none;
+    cursor: pointer;
+  }
+  .empty_message{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(148, 143, 141);
+  }
+
+  /* remove all btn */
+  .removeAll_btn{
+    width: 30%;
+    border: none;
+    background-color: rgb(204, 60, 60);
+    padding: 8px 25px ;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .4s;
+    cursor: pointer;
+  }
+  .removeAll_btn:hover{
+    background-color: rgb(252, 60, 60);
+  }
